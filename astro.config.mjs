@@ -7,5 +7,6 @@ import keystatic from '@keystatic/astro';
 
 // https://astro.build/config
 export default defineConfig({
+  output: 'static',
   integrations: [react(), markdoc(), keystatic()]
 });
